@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment variables
+.env*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output
+
+# Temporary files
+.tmp/
+temp/
+
+# Docker
+.docker/
+
+# Claude artifacts
+.claude/
+Gennext_LIMS_Claude_Docs.zip
