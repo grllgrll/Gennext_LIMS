@@ -252,7 +252,7 @@ export default function Page() {
                 <Link key={action.href} href={action.href} className="group">
                   <Card 
                     variant="interactive" 
-                    className="h-full border-0 bg-gradient-to-br from-white to-slate-50/50 dark:from-slate-800 dark:to-slate-700/50 hover:shadow-xl transition-all duration-300"
+                    className="h-full hover:shadow-xl transition-all duration-300"
                   >
                     <CardContent className="p-6 text-center space-y-4">
                       <div className={`w-14 h-14 mx-auto rounded-2xl bg-gradient-to-br ${action.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>

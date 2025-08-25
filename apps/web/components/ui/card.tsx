@@ -13,7 +13,7 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
       className={cn(
         // Base styles
         'relative rounded-xl border backdrop-blur-sm transition-all duration-300',
-        'bg-white/80 dark:bg-slate-900/80',
+        'bg-white/85 dark:bg-slate-900/85',
         
         // Border styles
         'border-slate-200/60 dark:border-slate-700/60',
@@ -30,8 +30,9 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
           'cursor-pointer transition-all duration-200',
           'hover:-translate-y-1 hover:border-primary-300/60 dark:hover:border-primary-600/60',
           'hover:bg-gradient-to-br hover:from-white hover:to-slate-50/50',
-          'dark:hover:from-slate-900 dark:hover:to-slate-800/50',
-          'active:translate-y-0 active:shadow-sm'
+          'dark:hover:from-slate-800/80 dark:hover:to-slate-700/80',
+          'active:translate-y-0 active:shadow-sm',
+          'bg-white/90 dark:bg-slate-800/90' // Ensure proper base backgrounds
         ],
         
         // Elevated variant

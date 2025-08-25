@@ -73,13 +73,13 @@
 /* Dark Mode Variables */
 .dark {
   /* Background Colors */
-  --color-background: #0f172a;
-  --color-background-secondary: #1e293b;
-  --color-background-muted: #334155;
+  --color-background: #020617;
+  --color-background-secondary: #0f172a;
+  --color-background-muted: #1e293b;
   
   /* Text Colors */
   --color-text-primary: #f8fafc;
-  --color-text-secondary: #cbd5e1;
+  --color-text-secondary: #e2e8f0;
   --color-text-muted: #94a3b8;
   
   /* Border Colors */
@@ -87,9 +87,9 @@
   --color-border-muted: #475569;
   
   /* Enhanced shadows for dark mode */
-  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -1px rgb(0 0 0 / 0.2);
-  --shadow-card-hover: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -2px rgb(0 0 0 / 0.2);
-  --shadow-glow: 0 0 30px rgb(59 130 246 / 0.3);
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -1px rgb(0 0 0 / 0.3);
+  --shadow-card-hover: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -2px rgb(0 0 0 / 0.3);
+  --shadow-glow: 0 0 30px rgb(59 130 246 / 0.4);
 }
 
 /* Base Styles */
@@ -203,15 +203,17 @@ a:focus {
 }
 
 .glass-effect {
-  background-color: rgb(255 255 255 / 0.8);
+  background-color: rgb(255 255 255 / 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgb(255 255 255 / 0.2);
+  border: 1px solid rgb(255 255 255 / 0.25);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 }
 
 .dark .glass-effect {
-  background-color: rgb(15 23 42 / 0.8);
-  border: 1px solid rgb(255 255 255 / 0.1);
+  background-color: rgb(15 23 42 / 0.85);
+  border: 1px solid rgb(255 255 255 / 0.15);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -1px rgb(0 0 0 / 0.2);
 }
 
 /* Animation Classes */
